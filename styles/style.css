@@ -280,6 +280,107 @@ header {
     top: -60px;
 }
 
+.online-payment {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.online-payment img {
+    width: 450px;
+    height: 480px;
+}
+
+.online-payment .section-image-2{
+    width: 680px;
+    height: 530px;
+}
+
+.online-payment .section-image-3 {
+    width: 408px;
+    height: 266px;
+    margin: 59px 0px 0px;
+}
+
+.online-payment .section-image-4 {
+    width: 596px;
+    height: 400px;
+}
+
+.online-payment .section-image-5 {
+    width: 577px;
+    height: 290px;
+    padding-top: 60px;
+}
+
+.section-text {
+    margin: 30px;
+    width: 530px;
+}
+
+.section-text h2 {
+    color: #747480;
+    font-family: YekanBakhMedium;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 20px 0 5px;
+}
+
+.section-text h3 {
+    color: #303030;
+    font-family: YekanBakhHeavy;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 5px 0 10px;
+}
+
+.section-text p {
+    color: #303030;
+    font-family: YekanBakhMedium;
+    text-align: justify;
+    line-height: 40px;
+    border-bottom: 1px solid #dfe1e4;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+}
+
+.section-links {
+    margin-top: 40px;
+    display: flex;
+}
+
+.section-links .first-button {
+    font-size: 0.9rem;
+    font-family: iranyekanwebmedium;
+    color: #000;
+    background: #ffd900;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.section-links .second-button {
+    font-size: 0.9rem;
+    font-family: iranyekanwebmedium;
+    color: #28457b;
+    background-color: rgba(232, 239, 254, 0.7);
+    padding: 6px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.section-links .second-button img {
+    width: 18px;
+    height: 15px;
+    margin-right: 5px;
+}
+
 @keyframes fadeInDown {
     0% {
         opacity: 0;
@@ -314,6 +415,10 @@ header {
 
     .banner-image imag {
         width: 430px;
+    }
+
+    .online-payment {
+        width: 940px;
     }
 }
 
@@ -358,6 +463,16 @@ header {
     .banner-button {
         margin-top: 40px;
     }
+
+    .online-payment {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-text {
+        width: 95%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -379,6 +494,17 @@ header {
         margin-left: 8px;
         margin-right: 8px;
     }
+
+    .section-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .online-payment img {
+        width: 460px;
+        height: 480px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -394,4 +520,34 @@ header {
     .banner-text p {
         text-align: justify;
     }
+
+    .online-payment .section-image {
+        display: none;
+    }
+
+    .section-text {
+        width: 80%;
+        padding: 0 10px;
+    }
+
+    .section-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .online-payment .section-image-2{
+        display: none;
+    }
+
+    .online-payment .section-image-3{
+        display: none;
+    }
+
+    .online-payment .section-image-4{
+        display: none;
+    }
+
+    .online-payment .section-image-5{
+        display: none;
+    }
+
 }
